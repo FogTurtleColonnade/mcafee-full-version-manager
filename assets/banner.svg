@@ -1,0 +1,95 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#1a0505"/>
+<stop offset="50%" stop-color="#2b0a0a"/>
+<stop offset="100%" stop-color="#120303"/>
+</linearGradient>
+<radialGradient id="glow" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#ff2d2d" stop-opacity="0.5"/>
+<stop offset="100%" stop-color="#ff2d2d" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="shieldGrad" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#ff5050"/>
+<stop offset="60%" stop-color="#c1121f"/>
+<stop offset="100%" stop-color="#7a0c0c"/>
+</linearGradient>
+<linearGradient id="shieldInner" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
+<stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="headTxt" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#ffffff"/>
+<stop offset="100%" stop-color="#ffdede"/>
+</linearGradient>
+</defs>
+
+<rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+
+<!-- security grid lines -->
+<g stroke="#ff4d4d" stroke-opacity="0.08" stroke-width="1">
+<line x1="0" y1="40" x2="1200" y2="40"/>
+<line x1="0" y1="90" x2="1200" y2="90"/>
+<line x1="0" y1="140" x2="1200" y2="140"/>
+<line x1="0" y1="190" x2="1200" y2="190"/>
+<line x1="0" y1="240" x2="1200" y2="240"/>
+<line x1="0" y1="290" x2="1200" y2="290"/>
+<line x1="0" y1="340" x2="1200" y2="340"/>
+<line x1="120" y1="0" x2="120" y2="360"/>
+<line x1="320" y1="0" x2="320" y2="360"/>
+<line x1="520" y1="0" x2="520" y2="360"/>
+<line x1="720" y1="0" x2="720" y2="360"/>
+<line x1="920" y1="0" x2="920" y2="360"/>
+<line x1="1120" y1="0" x2="1120" y2="360"/>
+</g>
+
+<circle cx="960" cy="180" r="260" fill="url(#glow)"/>
+
+<!-- scattered particles -->
+<g fill="#ff6b6b" opacity="0.5">
+<circle cx="140" cy="60" r="2.5"/>
+<circle cx="240" cy="300" r="2"/>
+<circle cx="470" cy="45" r="2"/>
+<circle cx="680" cy="320" r="2.5"/>
+<circle cx="1050" cy="70" r="2"/>
+<circle cx="1080" cy="290" r="2.5"/>
+<circle cx="60" cy="200" r="1.8"/>
+<circle cx="1130" cy="180" r="2"/>
+</g>
+
+<!-- Large shield on right -->
+<g transform="translate(940,180)">
+<path d="M0,-120 L95,-85 L95,15 C95,90 45,140 0,155 C-45,140 -95,90 -95,15 L-95,-85 Z"
+fill="url(#shieldGrad)" stroke="#ffffff" stroke-opacity="0.15" stroke-width="2"/>
+<path d="M0,-120 L95,-85 L95,15 C95,90 45,140 0,155 Z" fill="url(#shieldInner)"/>
+<path d="M-45,0 L-15,32 L48,-42" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- concentric protective rings -->
+<circle cx="940" cy="180" r="175" fill="none" stroke="#ff4d4d" stroke-opacity="0.25" stroke-width="1.5"/>
+<circle cx="940" cy="180" r="215" fill="none" stroke="#ff4d4d" stroke-opacity="0.12" stroke-width="1.5"/>
+
+<!-- side accent bar -->
+<rect x="60" y="90" width="6" height="170" fill="#ff2d2d"/>
+
+<text x="80" y="160" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" fill="url(#headTxt)" textLength="1080.0" lengthAdjust="spacingAndGlyphs" font-size="62.2">
+McAfee Full Version Download
+</text>
+
+<text x="80" y="220" font-family="'Segoe UI', Arial, sans-serif" fill="#f0c9c9" textLength="1080.0" lengthAdjust="spacingAndGlyphs" font-size="19.8">
+Download and activate the full version of McAfee antivirus with complete feature access.
+</text>
+
+<!-- lock accent icons row -->
+<g transform="translate(80,265)" fill="none" stroke="#ff5050" stroke-width="2.5" opacity="0.8">
+<rect x="0" y="8" width="18" height="14" rx="2"/>
+<path d="M3,8 V4 a6,6 0 0 1 12,0 v4"/>
+</g>
+<text x="112" y="280" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#ffb3b3">Real-time Protection</text>
+
+<g transform="translate(320,265)" fill="none" stroke="#ff5050" stroke-width="2.5" opacity="0.8">
+<rect x="0" y="8" width="18" height="14" rx="2"/>
+<path d="M3,8 V4 a6,6 0 0 1 12,0 v4"/>
+</g>
+<text x="352" y="280" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#ffb3b3">Full Feature Unlock</text>
+</svg>
